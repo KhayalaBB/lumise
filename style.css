@@ -1,0 +1,91 @@
+section{
+    background-color: #363b3e;	
+}
+.footer{
+	width: 100%;
+	padding: 80px 0;
+	display: flex;
+}
+.container{
+	width: 80%;
+	margin:auto;
+    padding: 10px 15px;
+}
+.lumise img{
+	max-height: 40px;
+	margin-top: 25px;
+}
+.lumise, .page, .help, .platforms{
+	width: 25%;
+}
+.footer div:not(:first-of-type){
+	padding-left: 110px;
+}
+.social ul{
+	padding: 0;
+	display: flex;
+}
+
+.social ul li:hover{
+	opacity: 0.6;
+	transition: all 0.5s;
+}
+.social ul li{
+	margin-right: 12px;
+	border-radius: 50%;
+}
+.social a{
+	display: block;
+	width: 32px;
+    height: 32px;
+	line-height: 32px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.social ul li:nth-of-type(1){
+	background-color:#3B5998;
+}
+.social ul li:nth-of-type(2){
+	background-color: #1DA1F2;
+}
+.social ul li:nth-of-type(3){
+    background-image: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%,
+    #9b36b7 85%, #515ecf);
+}
+.social ul li:nth-of-type(4){
+	background-color: #FF0000;;
+}
+p{
+	color: #9b9d9f;
+}
+p a{
+	color: #fff;
+	text-decoration:none;
+	text-decoration-color: #fff; 
+}
+p a:hover{
+	text-decoration: underline;
+    text-decoration-color: #fff; 
+}
+li a{
+	color: #9b9d9f;
+	text-decoration:none;	
+}
+li a:hover{
+	text-decoration: underline;
+	text-decoration-color: #fff; 
+	color: white;
+}
+li{
+	list-style-type: none;
+	margin-bottom: 1.1rem;
+}
+h4{
+	color: #fff;
+}
+hr{
+    height: 1.1px;
+    background-color: #4b4f52;
+    border:none;
+}
